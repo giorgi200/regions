@@ -1,0 +1,22 @@
+.br-subleft {
+    display: none;
+}
+
+.br-mailbox-list.ps.ps--theme_default {
+    display: none;
+}
+
+.br-header {
+    display: none;
+}
+.email .br-mailbox-body, .email.collapsed-menu .br-mailbox-body {
+    display: block;
+}
+
+.collapsed-menu .br-sideleft {
+    display: none;
+}
+
+nav.nav.nav-inline.tx-size-24.mg-b-0.lh-0 {
+    display: none;
+}
