@@ -4,14 +4,8 @@ require_once "router.php";
 
 
 
-route('/admin', function() {
-    $page = 'main';
-    
-    require "./view/admin/layout/head.php";
-    require "./view/admin/index.php";
-    require "./layout/sidebar.php";
-    require "./layout/header.php";
-    require "./layout/r_sidebar.php";
+route('', function() {
+    require "./view/layout/app.php";
 });
 
 

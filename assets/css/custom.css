@@ -1,0 +1,19 @@
+.post-image img {
+    transform: translateY(-50%);
+    top: 50%;
+    position: absolute;
+}
+
+.post-image {
+    height: 244px;
+    overflow: hidden;
+    position: relative;
+    background-color: #e7e7e7;
+}
+
+.post-image a {
+    height: 100%;
+}
+#page-content{
+	min-height: calc(100vh - 165px)
+}
